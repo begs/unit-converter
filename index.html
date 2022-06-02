@@ -1,11 +1,10 @@
 <html>
     <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
-        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="styles.css">
     </head>
     <background>
         <h2>Metric/imperial unit converter!!</h2>
-        <button type="button" value="Refresh" onclick=""/>
-        <h1 id="input-el" class="increase"></h1>
+        <input value="20" id="input-el" class="increase" oninput="render()" maxlength="10" ></input>
     </background>
 
     <lightActive>
@@ -19,6 +18,7 @@
         <h4 id="mass-el" class="style"></h4>
         
     </lightActive>
-</html>
 
 <script src="index.js"></script>
+</html>
+
