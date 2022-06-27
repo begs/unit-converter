@@ -1,7 +1,7 @@
 # Unit Converter
 Solo project from Module 3: "Making websites interactive" in the Front-End Developer Career Path at Scrimba.
 
-Demo: todo
+Demo: https://begs.github.io/unit-converter/
 
 ## Requirements for the project
 - Save number to a variable in code
